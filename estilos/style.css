@@ -1,0 +1,191 @@
+body{
+     background-color: darkgray;
+}
+main {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container {
+    width: 100%;
+    height: 80%; 
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-template-rows: repeat((3, 1fr));
+    
+}
+
+.text {
+    background-color: aquamarine;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+
+}
+
+.pic1 {
+    background-color: purple;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    height: 200px;
+}
+
+.pic2 {
+    background-color: red;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 4%;
+      height: 200px;
+}
+.pic3 {
+        background-color: blue;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 4%; /*no sé si margin es lo más correcto, revisar*/
+      height: 200px;
+}
+
+/* --------card section------------- */
+
+.cards-container {
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-template-rows: repeat((6, 1fr));
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.card1 {
+    background-color: brown;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: 2px solid white;
+}
+
+.card2 {
+    background-color: rgb(25, 215, 50);
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: 2px solid white;
+}
+
+.card3 {
+    background-color: rgb(54, 97, 60);
+    grid-column: 1/2;
+    grid-row: 4/5;
+    border: 2px solid white;
+}
+
+.card4 {
+    background-color: rgb(76, 183, 204);
+    grid-column: 1/2;
+    grid-row: 5/6;
+    border: 2px solid white;
+}
+
+.card5 {
+    background-color: rgb(76, 183, 204);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 2px solid white;
+}
+
+.card6 {
+    background-color: rgb(54, 97, 60);
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: 2px solid white;
+}
+
+.card7 {
+    background-color: rgb(25, 215, 50);
+    grid-column: 2/3;
+    grid-row: 4/5;
+    border: 2px solid white;
+}
+
+.card8 {
+    background-color: brown;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    border: 2px solid white;
+}
+
+.shop {
+    background-color: aquamarine;
+    grid-column: 1/3;
+    grid-row: 6/7;
+    cursor: pointer;
+
+}
+
+/* ------------ESTO ES EN ESCRITORIO---------- */
+
+/* .cards-container {
+     width: 50%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(4, fr);
+    grid-template-rows: repeat((2, 1fr));
+}
+.card1{
+    background-color: brown;
+    grid-column: 1/2;
+grid-row: 1/2;
+}
+.card2{
+    background-color: rgb(25, 215, 50);
+    grid-column: 2/3;
+grid-row: 1/2;
+}
+.card3{
+    background-color: rgb(54, 97, 60);
+    grid-column: 3/4;
+grid-row: 1/2;
+}
+.card4{
+    background-color: rgb(76, 183, 204);
+    grid-column: 4/5;
+grid-row: 1/2;
+}
+
+.card5{
+    background-color: rgb(76, 183, 204);
+    grid-column: 1/2;
+grid-row: 2/3;
+}
+
+.card6{
+    background-color: rgb(54, 97, 60);
+    grid-column: 2/3;
+grid-row: 2/3;
+}
+
+.card7{
+    background-color: rgb(25, 215, 50);
+    grid-column: 3/4;
+grid-row: 2/3;
+}
+
+.card8{
+    background-color: brown;
+    grid-column: 4/5;
+grid-row: 2/3;
+} */
