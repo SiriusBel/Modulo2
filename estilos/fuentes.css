@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Bodoni Moda';
+    src: local('Bodoni Moda'), url('../fonts/BodoniModa-VariableFont_opsz\,wght.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'Cultive Mono';
+    src: local('Cultive Mono'), url('../fonts/CutiveMono-Regular.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'Epilogue';
+    src: local('Epilogue'), url('../fonts/Epilogue-VariableFont_wght.ttf') format('woff2');
+}
